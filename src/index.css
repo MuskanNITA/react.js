@@ -1,0 +1,26 @@
+
+/* Styles for Navbar */
+.navbar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  background-color: #2980b9; /* Change background color on hover */
+  text-decoration: none; /* Remove underline on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 0 20px; /* Optional: for some padding on the sides */
+}
+
+.home-content {
+  max-width: 600px; /* Optional: limit the width of the content */
+  animation: fadeInUp 1s ease-in-out;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn {
+  margin-top: 20px;
+}

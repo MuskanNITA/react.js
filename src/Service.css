@@ -1,0 +1,40 @@
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .service-box {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px;
+    max-width: 500px;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-box h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .blue-bg {
+    background-color: #007bff; /* Blue background */
+  }
+  
